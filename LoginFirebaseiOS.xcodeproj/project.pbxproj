@@ -13,9 +13,22 @@
 		83DA46362714F860008C69D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83DA46342714F860008C69D2 /* Main.storyboard */; };
 		83DA46382714F861008C69D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83DA46372714F861008C69D2 /* Assets.xcassets */; };
 		83DA463B2714F861008C69D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83DA46392714F861008C69D2 /* LaunchScreen.storyboard */; };
+		83DA46452714F880008C69D2 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DA46442714F880008C69D2 /* WelcomeViewController.swift */; };
+		83DA46472714F88E008C69D2 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DA46462714F88E008C69D2 /* RegisterViewController.swift */; };
+		83DA46492714F894008C69D2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DA46482714F894008C69D2 /* LoginViewController.swift */; };
+		83DA464B2714F89E008C69D2 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DA464A2714F89E008C69D2 /* DashboardViewController.swift */; };
+		83DA464D27150245008C69D2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83DA464C27150245008C69D2 /* GoogleService-Info.plist */; };
+		83DA465027150A0B008C69D2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DA464F27150A0B008C69D2 /* Extensions.swift */; };
+		83DA465727150EEB008C69D2 /* Simulator Screen Shot - iPod touch (7th generation) - 2021-10-11 at 20.29.32.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DA465227150EE6008C69D2 /* Simulator Screen Shot - iPod touch (7th generation) - 2021-10-11 at 20.29.32.png */; };
+		83DA465827150EEB008C69D2 /* Simulator Screen Shot - iPod touch (7th generation) - 2021-10-11 at 20.30.22.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DA465327150EE7008C69D2 /* Simulator Screen Shot - iPod touch (7th generation) - 2021-10-11 at 20.30.22.png */; };
+		83DA465927150EEB008C69D2 /* Simulator Screen Shot - iPod touch (7th generation) - 2021-10-11 at 20.29.45.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DA465427150EE9008C69D2 /* Simulator Screen Shot - iPod touch (7th generation) - 2021-10-11 at 20.29.45.png */; };
+		83DA465A27150EEB008C69D2 /* Simulator Screen Shot - iPod touch (7th generation) - 2021-10-11 at 20.29.49.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DA465527150EEA008C69D2 /* Simulator Screen Shot - iPod touch (7th generation) - 2021-10-11 at 20.29.49.png */; };
+		83DA465B27150EEB008C69D2 /* Simulator Screen Shot - iPod touch (7th generation) - 2021-10-11 at 20.30.20.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DA465627150EEB008C69D2 /* Simulator Screen Shot - iPod touch (7th generation) - 2021-10-11 at 20.30.20.png */; };
+		8DF5DFC1C9FD5D671DE76025 /* Pods_LoginFirebaseiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB76F873DD734BBFB8FC13A3 /* Pods_LoginFirebaseiOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8321E64F951AEE35C9C5586E /* Pods-LoginFirebaseiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginFirebaseiOS.release.xcconfig"; path = "Target Support Files/Pods-LoginFirebaseiOS/Pods-LoginFirebaseiOS.release.xcconfig"; sourceTree = "<group>"; };
 		83DA462B2714F860008C69D2 /* LoginFirebaseiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginFirebaseiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83DA462E2714F860008C69D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83DA46302714F860008C69D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +37,19 @@
 		83DA46372714F861008C69D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83DA463A2714F861008C69D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83DA463C2714F861008C69D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83DA46442714F880008C69D2 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		83DA46462714F88E008C69D2 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		83DA46482714F894008C69D2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		83DA464A2714F89E008C69D2 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		83DA464C27150245008C69D2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		83DA464F27150A0B008C69D2 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		83DA465227150EE6008C69D2 /* Simulator Screen Shot - iPod touch (7th generation) - 2021-10-11 at 20.29.32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPod touch (7th generation) - 2021-10-11 at 20.29.32.png"; sourceTree = "<group>"; };
+		83DA465327150EE7008C69D2 /* Simulator Screen Shot - iPod touch (7th generation) - 2021-10-11 at 20.30.22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPod touch (7th generation) - 2021-10-11 at 20.30.22.png"; sourceTree = "<group>"; };
+		83DA465427150EE9008C69D2 /* Simulator Screen Shot - iPod touch (7th generation) - 2021-10-11 at 20.29.45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPod touch (7th generation) - 2021-10-11 at 20.29.45.png"; sourceTree = "<group>"; };
+		83DA465527150EEA008C69D2 /* Simulator Screen Shot - iPod touch (7th generation) - 2021-10-11 at 20.29.49.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPod touch (7th generation) - 2021-10-11 at 20.29.49.png"; sourceTree = "<group>"; };
+		83DA465627150EEB008C69D2 /* Simulator Screen Shot - iPod touch (7th generation) - 2021-10-11 at 20.30.20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPod touch (7th generation) - 2021-10-11 at 20.30.20.png"; sourceTree = "<group>"; };
+		965CE5335ACB7FE37517C4EE /* Pods-LoginFirebaseiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginFirebaseiOS.debug.xcconfig"; path = "Target Support Files/Pods-LoginFirebaseiOS/Pods-LoginFirebaseiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		FB76F873DD734BBFB8FC13A3 /* Pods_LoginFirebaseiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginFirebaseiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DF5DFC1C9FD5D671DE76025 /* Pods_LoginFirebaseiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +67,11 @@
 		83DA46222714F860008C69D2 = {
 			isa = PBXGroup;
 			children = (
+				83DA465127150E61008C69D2 /* Project */,
 				83DA462D2714F860008C69D2 /* LoginFirebaseiOS */,
 				83DA462C2714F860008C69D2 /* Products */,
+				B8F5478C97D2CA02341DC693 /* Pods */,
+				DC555DD1A4C503C036DFF974 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +86,74 @@
 		83DA462D2714F860008C69D2 /* LoginFirebaseiOS */ = {
 			isa = PBXGroup;
 			children = (
+				83DA464E271509E7008C69D2 /* Utils */,
+				83DA464C27150245008C69D2 /* GoogleService-Info.plist */,
+				83DA46432714F86F008C69D2 /* Controllers */,
+				83DA46422714F869008C69D2 /* Views */,
 				83DA462E2714F860008C69D2 /* AppDelegate.swift */,
 				83DA46302714F860008C69D2 /* SceneDelegate.swift */,
 				83DA46322714F860008C69D2 /* ViewController.swift */,
-				83DA46342714F860008C69D2 /* Main.storyboard */,
 				83DA46372714F861008C69D2 /* Assets.xcassets */,
 				83DA46392714F861008C69D2 /* LaunchScreen.storyboard */,
 				83DA463C2714F861008C69D2 /* Info.plist */,
 			);
 			path = LoginFirebaseiOS;
+			sourceTree = "<group>";
+		};
+		83DA46422714F869008C69D2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				83DA46342714F860008C69D2 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		83DA46432714F86F008C69D2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				83DA46442714F880008C69D2 /* WelcomeViewController.swift */,
+				83DA46462714F88E008C69D2 /* RegisterViewController.swift */,
+				83DA46482714F894008C69D2 /* LoginViewController.swift */,
+				83DA464A2714F89E008C69D2 /* DashboardViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		83DA464E271509E7008C69D2 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				83DA464F27150A0B008C69D2 /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		83DA465127150E61008C69D2 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				83DA465227150EE6008C69D2 /* Simulator Screen Shot - iPod touch (7th generation) - 2021-10-11 at 20.29.32.png */,
+				83DA465427150EE9008C69D2 /* Simulator Screen Shot - iPod touch (7th generation) - 2021-10-11 at 20.29.45.png */,
+				83DA465527150EEA008C69D2 /* Simulator Screen Shot - iPod touch (7th generation) - 2021-10-11 at 20.29.49.png */,
+				83DA465627150EEB008C69D2 /* Simulator Screen Shot - iPod touch (7th generation) - 2021-10-11 at 20.30.20.png */,
+				83DA465327150EE7008C69D2 /* Simulator Screen Shot - iPod touch (7th generation) - 2021-10-11 at 20.30.22.png */,
+			);
+			path = Project;
+			sourceTree = "<group>";
+		};
+		B8F5478C97D2CA02341DC693 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				965CE5335ACB7FE37517C4EE /* Pods-LoginFirebaseiOS.debug.xcconfig */,
+				8321E64F951AEE35C9C5586E /* Pods-LoginFirebaseiOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DC555DD1A4C503C036DFF974 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB76F873DD734BBFB8FC13A3 /* Pods_LoginFirebaseiOS.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +163,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 83DA463F2714F861008C69D2 /* Build configuration list for PBXNativeTarget "LoginFirebaseiOS" */;
 			buildPhases = (
+				3DE58B0D5C108DAD3CB35C4C /* [CP] Check Pods Manifest.lock */,
 				83DA46272714F860008C69D2 /* Sources */,
 				83DA46282714F860008C69D2 /* Frameworks */,
 				83DA46292714F860008C69D2 /* Resources */,
+				6808B7AA42285093522C47BF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,19 +217,72 @@
 			buildActionMask = 2147483647;
 			files = (
 				83DA463B2714F861008C69D2 /* LaunchScreen.storyboard in Resources */,
+				83DA464D27150245008C69D2 /* GoogleService-Info.plist in Resources */,
+				83DA465927150EEB008C69D2 /* Simulator Screen Shot - iPod touch (7th generation) - 2021-10-11 at 20.29.45.png in Resources */,
+				83DA465827150EEB008C69D2 /* Simulator Screen Shot - iPod touch (7th generation) - 2021-10-11 at 20.30.22.png in Resources */,
 				83DA46382714F861008C69D2 /* Assets.xcassets in Resources */,
+				83DA465727150EEB008C69D2 /* Simulator Screen Shot - iPod touch (7th generation) - 2021-10-11 at 20.29.32.png in Resources */,
 				83DA46362714F860008C69D2 /* Main.storyboard in Resources */,
+				83DA465A27150EEB008C69D2 /* Simulator Screen Shot - iPod touch (7th generation) - 2021-10-11 at 20.29.49.png in Resources */,
+				83DA465B27150EEB008C69D2 /* Simulator Screen Shot - iPod touch (7th generation) - 2021-10-11 at 20.30.20.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3DE58B0D5C108DAD3CB35C4C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoginFirebaseiOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6808B7AA42285093522C47BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoginFirebaseiOS/Pods-LoginFirebaseiOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoginFirebaseiOS/Pods-LoginFirebaseiOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoginFirebaseiOS/Pods-LoginFirebaseiOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		83DA46272714F860008C69D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83DA46492714F894008C69D2 /* LoginViewController.swift in Sources */,
+				83DA464B2714F89E008C69D2 /* DashboardViewController.swift in Sources */,
 				83DA46332714F860008C69D2 /* ViewController.swift in Sources */,
+				83DA465027150A0B008C69D2 /* Extensions.swift in Sources */,
+				83DA46472714F88E008C69D2 /* RegisterViewController.swift in Sources */,
+				83DA46452714F880008C69D2 /* WelcomeViewController.swift in Sources */,
 				83DA462F2714F860008C69D2 /* AppDelegate.swift in Sources */,
 				83DA46312714F860008C69D2 /* SceneDelegate.swift in Sources */,
 			);
@@ -284,6 +428,7 @@
 		};
 		83DA46402714F861008C69D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 965CE5335ACB7FE37517C4EE /* Pods-LoginFirebaseiOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +457,7 @@
 		};
 		83DA46412714F861008C69D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8321E64F951AEE35C9C5586E /* Pods-LoginFirebaseiOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
