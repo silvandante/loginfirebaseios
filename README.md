@@ -4,6 +4,10 @@
 **App de login/registro/logout de usuário**
 
 \
+**Demo**
+Youtube: https://youtu.be/mKi43TkYg1I
+
+\
 **Objetivo**
 
 LoginFirebaseiOS, o App, tem como objetivo permitir ao usuário fazer registro na plataforma, fazer login e também logout.
