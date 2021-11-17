@@ -9,12 +9,12 @@ import SwiftUI
 
 struct MovieListUIView: View {
     
-    @ObservedObject private var topRatedState = MovieListState()
+    @ObservedObject private var movieListState = MovieListState()
     var _openMovieDetail: (Movie) -> ()
     
     init(_openMovieDetail: @escaping (Movie) -> ()) {
         self._openMovieDetail = _openMovieDetail
-        self.topRatedState.loadMovies()
+        self.movieListState.loadMovies()
     }
     
     let columns = [
@@ -27,16 +27,16 @@ struct MovieListUIView: View {
             VStack(alignment: .leading, spacing: 0) {
                 ScrollView(.vertical, showsIndicators: false) {
                     LazyVGrid(columns: columns, spacing: 20) {
-                        if(self.topRatedState.movies != nil) {
-                            ForEach(self.topRatedState.movies!) { movie in
+                        if(self.movieListState.movies != nil) {
+                            ForEach(self.movieListState.movies!) { movie in
                                 MovieCardUIView(movie: movie, openMovieDetail: _openMovieDetail)
                                     .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .topLeading)
                             }
                         } else {
                             LoadingUIView(
-                                isLoading: topRatedState.isLoading,
-                                error: topRatedState.error) {
-                                    topRatedState.loadMovies()
+                                isLoading: movieListState.isLoading,
+                                error: movieListState.error) {
+                                    movieListState.loadMovies()
                                 }
                         }
                     }
