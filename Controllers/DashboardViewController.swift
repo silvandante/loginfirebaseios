@@ -7,24 +7,40 @@
 
 import UIKit
 import Firebase
+import SwiftUI
 
 class DashboardViewController: UIViewController {
 
-    @IBOutlet weak var logoutButton: UIButton!
+    @IBOutlet weak var theContainer: UIView!
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         navigationItem.hidesBackButton = true
+        
+        title = "Top Movies"
+        
+        let childView = UIHostingController(rootView: MovieListUIView(_openMovieDetail: openMovieDetail))
+        
+        addChild(childView)
+        
+        childView.view.frame = theContainer.bounds
+        
+        theContainer.addSubview(childView.view)
+    }
+    
+    func openMovieDetail(movie: Movie) {
+        let singleMovie = self.storyboard?.instantiateViewController(withIdentifier: "SingleMovieViewController") as! SingleMovieViewController
+        singleMovie.movie = movie
+        self.navigationController?.pushViewController(singleMovie, animated: true)
     }
     
     
-    @IBAction func onLogoutClick(_ sender: Any) {
-        logoutButton.loadingIndicator(true)
+    
+    func onLogoutClick() {
         do {
             try Auth.auth().signOut()
-            
-            logoutButton.loadingIndicator(false)
             
             navigationController?.popToRootViewController(animated: true)
         
@@ -45,7 +61,6 @@ class DashboardViewController: UIViewController {
                     print("Not known error")
                 }
             }))
-            logoutButton.loadingIndicator(false)
         }
     }
     

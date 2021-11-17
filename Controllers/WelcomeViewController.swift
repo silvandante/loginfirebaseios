@@ -13,8 +13,8 @@ class WelcomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        animateText(textUILabel: labelTitle, text: "👾LoginFirebaseiOS")
+    
+        animateText(textUILabel: labelTitle, text: "👾iOS - Movie/Login")
     }
     
     func animateText(textUILabel: UILabel, text: String) {
@@ -29,4 +29,9 @@ class WelcomeViewController: UIViewController {
             offset += 1.00
         }
     }
+}
+
+
+struct FooReference {
+    var name: String = ""
 }

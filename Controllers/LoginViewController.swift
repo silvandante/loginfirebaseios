@@ -18,6 +18,8 @@ class LoginViewController: UIViewController {
     @IBAction func onEnterClick(_ sender: Any) {
         enterButton.loadingIndicator(true)
         
+        
+        
         if let email = emailTextfield.text, let password = passwordTextfield.text {
             Auth.auth().signIn(withEmail: email, password: password) { authResult, error in
                 if let e = error {
